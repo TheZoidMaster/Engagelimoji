@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Engagelimoji",
+    "description": "Adds more emojis and Markdown to Engageli",
+    "version": "1.0",
+    "action": {},
+    "content_scripts": [
+        {
+            "js": ["scripts/scanner.js", "scripts/twemoji.min.js"],
+            "css": ["styles/twemoji.css"],
+            "matches": ["https://*/*", "https://*.engageli.com/*"]
+        }
+    ]
+}
