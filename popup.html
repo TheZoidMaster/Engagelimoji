@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Engagelimoji Emoji Picker</title>
+        <style>
+            body {
+                font-family: Helvetica, sans-serif;
+                margin: 0;
+                padding: 10px;
+                width: fit-content;
+                height: fit-content;
+                background-color: #181833;
+            }
+            h1 {
+                font-size: 16px;
+                margin-bottom: 10px;
+                margin-top: 0px;
+                text-align: center;
+                color: #fcfcfc;
+                background-color: #6967d8;
+                border-radius: 8px;
+                padding: 10px;
+            }
+            .emoji-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 10px;
+            }
+            .emoji-item {
+                text-align: center;
+                cursor: pointer;
+                font-size: 24px;
+                padding: 10px;
+                border-radius: 8px;
+                background-color: #2f2c58;
+                transition: background-color 0.3s ease, transform 0.3s ease;
+                transform: scale(1);
+            }
+            .emoji-item:hover {
+                background-color: #6967d8;
+                transform: scale(1.1);
+            }
+            img.emoji {
+                display: inline-block;
+                height: auto;
+                width: auto;
+                max-height: 1em;
+                max-width: 1em;
+                margin: 0 0.05em 0 0.1em;
+                vertical-align: -0.1em;
+            }
+        </style>
+        <script src="scripts/emojipicker.js"></script>
+        <script src="scripts/twemoji.min.js"></script>
+    </head>
+    <body>
+        <h1>Engagelimoji Emoji Picker</h1>
+        <div class="emoji-grid"></div>
+    </body>
+</html>

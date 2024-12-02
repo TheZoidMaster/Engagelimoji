@@ -3,7 +3,10 @@
     "name": "Engagelimoji",
     "description": "Adds more emojis and Markdown to Engageli",
     "version": "1.0",
-    "action": {},
+    "action": {
+        "default_title": "Engagelimoji",
+        "default_popup": "popup.html"
+    },
     "content_scripts": [
         {
             "js": ["scripts/scanner.js", "scripts/twemoji.min.js"],
