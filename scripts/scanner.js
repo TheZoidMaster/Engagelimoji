@@ -11,7 +11,7 @@ fetch(
     })
     .catch((error) => console.error("Error fetching emojis:", error));
 
-const customEmojis = {};
+var customEmojis = {};
 fetch(
     "https://raw.githubusercontent.com/TheZoidMaster/Engagelimoji/refs/heads/main/assets/emojis.json"
 )
