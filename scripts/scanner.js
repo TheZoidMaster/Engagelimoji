@@ -9,10 +9,12 @@ fetch(
     .catch((error) => console.error("Error fetching custom emojis:", error));
 
 function replaceEmojis() {
-    if (!window.twemoji) return;
-    window.twemoji.parse(el, {
-        base: "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/",
-        emojis: customEmojis,
+    document.querySelectorAll("[data-testid='text-bubble']").forEach((el) => {
+        if (!window.twemoji) return;
+        window.twemoji.parse(el, {
+            base: "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/",
+            emojis: customEmojis,
+        });
     });
 }
 
