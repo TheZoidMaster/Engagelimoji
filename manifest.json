@@ -11,7 +11,7 @@
         {
             "js": ["scripts/scanner.js", "scripts/twemoji.min.js"],
             "css": ["styles/twemoji.css"],
-            "matches": ["https://*/*", "https://*.engageli.com/*"]
+            "matches": ["https://*.engageli.com/*"]
         }
     ]
 }
