@@ -10,9 +10,7 @@ fetch(
 
 function replaceEmojis() {
     document
-        .querySelectorAll(
-            "[data-testid='text-bubble'], .css-1uwms9u, .message-piece"
-        )
+        .querySelectorAll("[data-testid='text-bubble'], .css-1uwms9u")
         .forEach((el) => {
             if (!window.twemoji) return;
             window.twemoji.parse(el, {

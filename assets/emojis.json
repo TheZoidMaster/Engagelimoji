@@ -7,7 +7,6 @@
     "concern": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/concern.png?raw=true",
     "distraught": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/distraught.png?raw=true",
     "huh": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/huh.gif?raw=true",
-    "mewo": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/MEWO.webp?raw=true",
     "mischevious": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/mischevious.png?raw=true",
     "pain": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/pain.png?raw=true",
     "pou": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/pou.png?raw=true",
@@ -19,5 +18,10 @@
     "thinkies": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/thinkies.png?raw=true",
     "thumbsup": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/thumbsup.png?raw=true",
     "trol": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/trol.png?raw=true",
-    "woah": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/woah.png?raw=true"
+    "woah": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/woah.png?raw=true",
+    "gwuh": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/gwuh.png?raw=true",
+    "man_face": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/man_face.png?raw=true",
+    "thonk": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/thonk.png?raw=true",
+    "vanish": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/vanish.gif?raw=true",
+    "troll": "https://github.com/thezoidmaster/engagelimoji/blob/main/assets/images/troll.png?raw=true"
 }
