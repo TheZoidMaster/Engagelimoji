@@ -5,3 +5,15 @@ img.emoji {
     vertical-align: bottom;
     object-fit: contain;
 }
+
+img.emoji.jumboable {
+    height: 3rem;
+    width: 3rem;
+}
+
+.jumboContainer {
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
